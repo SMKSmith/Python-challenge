@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Import modules
 import os, csv
 
