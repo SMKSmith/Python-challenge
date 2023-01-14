@@ -10,7 +10,7 @@
 
 * In this project I created a Python script for analyzing the financial profit and loss records of PyBank. The analyzed dataset [budget_data.csv](PyBank/Resources/budget_data.csv) is composed of two columns: "Date" and "Profit/Losses".
 
-*Python Script is to analyze the records to calculate the following:
+* The Python script is to analyze the records to calculate the following:
 
 * The total number of months included in the dataset
 
