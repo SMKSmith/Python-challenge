@@ -5,7 +5,7 @@
 
 ## PyBank
 
-In this project I created a Python script for analyzing the financial profit and loss records of PyBank. 
+In this project I created a Python script for analyzing the financial profit and loss records. 
 
 ![revenue-per-lead](https://user-images.githubusercontent.com/117343047/212153647-cf28bfc3-5b6e-4692-9578-8e2f0e6f4120.png)
 
