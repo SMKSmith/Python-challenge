@@ -2,7 +2,7 @@
 import os, csv
 
 
-#Specify file to read
+#Specify file path to read
 py_csv = os.path.join('.', "Resources", "budget_data.csv")
 
  
@@ -32,7 +32,7 @@ with open(py_csv, 'r') as csv_file:
     #Read the row with header first
     csv_header = next(csv_reader)
     
-    #Read through data
+    #Iterate through data
     for row in csv_reader:
         
         #Count the number of months
@@ -104,13 +104,13 @@ with open(py_csv, 'r') as csv_file:
     print("Total Months: " + str(total_months))
     print("Total: $" + str(total_profit))
     print("Average Change: $" + str(profit_average))
-    print("Greatest Increase in Profits: " + str(increase_month) + " $" + str(max_change))
-    print("Greatest Decrease in Profits: " + str(decrease_month) + " $" + str(min_change))
+    print("Greatest Increase in Profits: " + str(increase_month) + " ($" + str(max_change) + ")")
+    print("Greatest Decrease in Profits: " + str(decrease_month) + " ($" + str(min_change) + ")")
 
 #set variable for pathway to write new file for results in Analasis folder
 results = os.path.join(".", "analysis" , "pybank_results.txt")
 
-#Open file to write 
+#Open file to write to file
 with open(results, "w") as py_file:
     
     #Write statesment to pybank_results.txt file 
@@ -119,7 +119,7 @@ with open(results, "w") as py_file:
     py_file.write("Total Months: " + str(total_months) + "\n")
     py_file.write("Total: $" + str(total_profit) + "\n")
     py_file.write("Average Change: $" + str(profit_average) + "\n")
-    py_file.write("Greatest Increase in Profits: " + str(increase_month) + " ($" + str(max_change) + ")" "\n")
+    py_file.write("Greatest Increase in Profits: " + str(increase_month) + " ($" + str(max_change) + ")" + "\n")
     py_file.write("Greatest Decrease in Profits: " + str(decrease_month) + " ($" + str(min_change) +  ")" + "\n")
     py_file.close() 
        
