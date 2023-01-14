@@ -35,4 +35,4 @@
 
   ## PyPoll
 
-  
+  ![Vote_counting](https://user-images.githubusercontent.com/117343047/212500741-fb255598-793b-4c30-87c6-cb6e21302100.png)
