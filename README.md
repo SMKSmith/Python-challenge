@@ -11,7 +11,7 @@ In this project I created a Python script for analyzing the financial profit and
 
 The analyzed dataset [budget_data.csv](PyBank/Resources/budget_data.csv) is composed of two columns: "Date" and "Profit/Losses".
 
- * The Python script is to analyze the records to calculate the following:
+The Python script is to analyze the records to calculate the following:
 
   - [x] The total number of months included in the dataset
 
@@ -41,11 +41,11 @@ The analyzed dataset [budget_data.csv](PyBank/Resources/budget_data.csv) is comp
 
 The dataset given was a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: "Voter ID", "County", and "Candidate".
 
-* Python script that analyzes the votes and calculates each of the following:
+Python script that analyzes the votes and calculates each of the following:
 
   - [x] The total number of votes cast
 
-  - [x]A complete list of candidates who received votes
+  - [x] A complete list of candidates who received votes
 
   - [x] The percentage of votes each candidate won
 
